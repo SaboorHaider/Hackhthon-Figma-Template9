@@ -2,8 +2,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaSearch, FaShoppingBag, FaBars, FaTimes } from 'react-icons/fa';
-import { IoSearch } from "react-icons/io5"; 
-import { PiHandbagBold } from "react-icons/pi"; 
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);

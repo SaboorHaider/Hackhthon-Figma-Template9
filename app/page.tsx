@@ -8,14 +8,24 @@ import FoodCategory from "@/components/Food-category"
 const Home=() =>{
     return(
         <div className="">
-             <Navbar/>
-             <Hero/>
+             
+       <header>
+       <Navbar/>
+       </header>
+
+       <main>
+       <Hero/>
              < AboutUs/>
              <FoodCategory/>
              <MenuCom/>
-             
+
+       </main>
+        
+<footer>
+    <Footer/>
+</footer>
+
         </div>
-       
         
     )
 }
