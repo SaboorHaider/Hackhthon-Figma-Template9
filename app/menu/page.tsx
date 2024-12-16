@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsCupHot } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
-
 import Service from "../restaurant/service/page";
 import Footer from "@/components/Footer";
 
