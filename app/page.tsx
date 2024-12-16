@@ -1,33 +1,41 @@
-import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer"
-import Hero from "@/components/Hero"
-import AboutUs from "@/components/About"
-import MenuCom from "@/components/Menu"
-import FoodCategory from "@/components/Food-category"
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Hero from "./restaurant/hero/page";
+import AboutUs from "./restaurant/about-us/page";
+import MenuCom from "./restaurant/menu/page";
+import FoodCategory from "./restaurant/foodCatrgory/page";
+import ChoseUs from "./restaurant/choseUs/page";
+import Service from "./restaurant/service/page";
+import OurChefs from "./restaurant/ourChefs/page";
+import TestimonialCard from "./restaurant/testimonials/page";
+import Process from "./restaurant/activeProcess/page";
+import BlogSection from "./restaurant/blogPost/page";
 
-const Home=() =>{
-    return(
-        <div className="">
-             
-       <header>
-       <Navbar/>
-       </header>
+const Home = () => {
+  return (
+    <div className="">
+      <header>
+        <Navbar />
+      </header>
 
-       <main>
-       <Hero/>
-             < AboutUs/>
-             <FoodCategory/>
-             <MenuCom/>
+      <main>
+        <Hero />
+        <AboutUs />
+        <FoodCategory />
+        <ChoseUs />
+        <Service />
+        <MenuCom />
+        <OurChefs />
+        <TestimonialCard />
+        <Process />
+        <BlogSection />
+      </main>
 
-       </main>
-        
-<footer>
-    <Footer/>
-</footer>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
+};
 
-        </div>
-        
-    )
-}
-
-export default Home
+export default Home;
