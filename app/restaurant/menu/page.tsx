@@ -21,13 +21,13 @@ const MenuCom = () => {
 
         <div className="flex justify-center mb-8">
           <ul className="flex flex-wrap justify-evenly space-x-2 sm:space-x-4 ">
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Breakfast</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Lunch</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Dinner</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Dessert</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Drink</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Snack</li>
-            <li className="cursor-pointer hover:text-yellow-500  transform transition hover:scale-105">Soups</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Breakfast</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Lunch</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Dinner</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Dessert</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Drink</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Snack</li>
+            <li className="cursor-pointer hover:text-orange-500  transform transition hover:scale-105">Soups</li>
           </ul>
         </div>
 

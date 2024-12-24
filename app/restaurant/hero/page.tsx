@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -21,7 +22,7 @@ function Hero() {
 
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-start mt-6">
           <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[160px] md:h-[50px] lg:w-[190px] lg:h-[60px] rounded-[40px] hover:bg-yellow-800 transform transition duration-300 hover:scale-105 cursor-pointer">
-            See More
+            <Link href='/ShopDetails'>See More</Link>
           </button>
         </div>
       </div>

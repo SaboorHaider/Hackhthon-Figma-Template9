@@ -5,9 +5,12 @@
 @tailwind utilities;
 
 html,
-body {
+body 
+{
   background-color: black;
 }
+
+
 
 @layer base {
   :root {
