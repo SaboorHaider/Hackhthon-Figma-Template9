@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsCupHot } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Service from "../restaurant/service/page";
+import Service from "../restaurant/servic/page";
 import Footer from "@/components/Footer";
 
 const Menu = () => {
@@ -31,7 +31,7 @@ const Menu = () => {
               </p>
               <MdKeyboardArrowRight />
 
-              <p className="text-yellow-500 cursor-pointer">
+              <p className="text-[#FF9F0D] cursor-pointer">
                 <Link href="/Error404">Menu</Link>
               </p>
             </div>
@@ -56,17 +56,17 @@ const Menu = () => {
               </div>
 
               <div className="">
-                <h2 className="text-3xl font-bold text-black mb-2">
+                <h2 className="text-4xl font-bold text-black mb-2">
                   <i>
-                    <BsCupHot className="text-xl text-yellow-500" />
-                  </i>{" "}
+                    <BsCupHot className="text-xl text-[#FF9F0D]" />
+                  </i>
                   Starter Menu
                 </h2>
 
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Alder Grilled Chinook Salmon
                       </h3>
                       <p className="text-md text-gray-600">
@@ -74,11 +74,11 @@ const Menu = () => {
                       </p>
                       <p className="text-sm text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">32$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D]">32$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-orange-500">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Berries and creme tart
                       </h3>
                       <p className="text-md text-gray-600">
@@ -86,12 +86,12 @@ const Menu = () => {
                       </p>
                       <p className="text-sm text-gray-400">700 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">43$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D]">43$</p>
                   </div>
 
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Tormentoso Bush Pizza Pintoage
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -99,11 +99,11 @@ const Menu = () => {
                       </p>
                       <p className="text-xs text-gray-400">1000 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">14$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D]">14$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Spicy Vegan Potato Curry
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -111,26 +111,26 @@ const Menu = () => {
                       </p>
                       <p className="text-xs text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">35$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D]">35$</p>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Main Course */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:border-none border-t-2 border-orange-300  p-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:border-none border-t-2 border-[#FF9F0D]  p-4">
               <div className="lg:ml-10">
                 <h2 className="text-3xl font-bold text-black mb-2">
                   <i>
-                    <BsCupHot className="text-xl text-yellow-500" />
-                  </i>{" "}
+                    <BsCupHot className="text-xl text-[#FF9F0D]" />
+                  </i>
                   Main Course
                 </h2>
 
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Optic Big Breakfast Combo Menu
                       </h3>
                       <p className="text-md text-gray-600">
@@ -142,7 +142,7 @@ const Menu = () => {
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-orange-500">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Cashew Chicken With Stir-Fry
                       </h3>
                       <p className="text-md text-gray-600">
@@ -154,7 +154,7 @@ const Menu = () => {
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Vegetables & Green Salad
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -166,7 +166,7 @@ const Menu = () => {
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Spicy Vegan Potato Curry
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -212,7 +212,7 @@ const Menu = () => {
               <div className="">
                 <h2 className="text-3xl font-bold text-black mb-2">
                   <i>
-                    <BsCupHot className="text-xl text-yellow-500" />
+                    <BsCupHot className="text-xl text-[#FF9F0D] " />
                   </i>{" "}
                   Dessert
                 </h2>
@@ -220,17 +220,17 @@ const Menu = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold">Fig and lemon cake</h3>
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">Fig and lemon cake</h3>
                       <p className="text-md text-gray-600">
                         Toasted French bread topped with romano, cheddar
                       </p>
                       <p className="text-sm text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">32$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">32$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-orange-500">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Creamy mascarpone cake
                       </h3>
                       <p className="text-md text-gray-600">
@@ -238,12 +238,12 @@ const Menu = () => {
                       </p>
                       <p className="text-sm text-gray-400">700 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">43$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">43$</p>
                   </div>
 
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">
                         Pastry, blueberries, lemon juice
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -251,17 +251,17 @@ const Menu = () => {
                       </p>
                       <p className="text-xs text-gray-400">1000 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">14$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">14$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">Pain au chocolat</h3>
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">Pain au chocolat</h3>
                       <p className="text-sm text-gray-600">
                         Spreadable cream cheese, crumbled blue cheese
                       </p>
                       <p className="text-xs text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">35$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">35$</p>
                   </div>
                 </div>
               </div>
@@ -272,7 +272,7 @@ const Menu = () => {
               <div className="lg:ml-10">
                 <h2 className="text-3xl font-bold text-black mb-2">
                   <i>
-                    <BsCupHot className="text-xl text-yellow-500" />
+                    <BsCupHot className="text-xl text-[#FF9F0D] " />
                   </i>{" "}
                   Drinks
                 </h2>
@@ -280,17 +280,17 @@ const Menu = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold">Caffè macchiato</h3>
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer">Caffè macchiato</h3>
                       <p className="text-md text-gray-600">
                         Toasted French bread topped with romano, cheddar
                       </p>
                       <p className="text-sm text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">32$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">32$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-orange-500">
+                      <h3 className="text-xl font-bold hover:text-[#FF9F0D] cursor-pointer ">
                         Aperol Spritz Capacianno
                       </h3>
                       <p className="text-md text-gray-600">
@@ -298,21 +298,21 @@ const Menu = () => {
                       </p>
                       <p className="text-sm text-gray-400">700 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">43$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">43$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">Caffe Latte Campuri</h3>
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer">Caffe Latte Campuri</h3>
                       <p className="text-sm text-gray-600">
                         Ground cumin, avocados, peeled and cubed
                       </p>
                       <p className="text-xs text-gray-400">1000 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">14$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">14$</p>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold hover:text-[#FF9F0D] cursor-pointer" >
                         Tormentoso BushTea Pintoage
                       </h3>
                       <p className="text-sm text-gray-600">
@@ -320,7 +320,7 @@ const Menu = () => {
                       </p>
                       <p className="text-xs text-gray-400">560 CAL</p>
                     </div>
-                    <p className="text-lg font-bold text-orange-500">35$</p>
+                    <p className="text-lg font-bold text-[#FF9F0D] ">35$</p>
                   </div>
                 </div>
               </div>

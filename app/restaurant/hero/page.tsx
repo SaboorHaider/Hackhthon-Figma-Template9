@@ -1,10 +1,45 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaPinterestP } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="bg-black px-3 md:px-[80px] lg:px-[135px] flex flex-col justify-evenly md:flex-row md:items-center py-[50px]">
+    
+    <div className="relative bg-black h-[620px]">
+      <Image
+        src="/HeroBg.jpg"
+        alt="HeroBg"
+        className="h-full w-full object-cover opacity-10 "
+        width={920}
+        height={500}
+      />
+
+    
+    <div className="absolute  inset-0 px-3 md:px-[80px] lg:px-[135px] flex flex-col justify-evenly md:flex-row md:items-center py-[50px]">
+
+
+
+
+
+
+    <div className="items-center justify-center mr-10 hidden sm:block md:block">
+      <div className="flex flex-col items-center text-white space-y-8 ">
+        <div className="border-r border-gray-600 h-32"></div>
+        <Link href="/" className="text-white hover:text-yellow-500">
+          <FaFacebookF />
+        </Link>
+        <Link href="/" className="text-white hover:text-yellow-500">
+          <FaTwitter />
+        </Link>
+        <Link href="/" className="text-white hover:text-yellow-500">
+          <FaPinterestP />
+        </Link>
+        <div className="border-r border-gray-600 h-32"></div>
+      </div>
+    </div>
 
       {/* Heading */}
       <div className="text-white w-full md:w-[50%]">
@@ -37,7 +72,8 @@ function Hero() {
           className="w-[90%] md:w-auto max-w-[300px] md:max-w-full"
         />
       </div>
-    </section>
+    </div>
+    </div>
   );
 }
 

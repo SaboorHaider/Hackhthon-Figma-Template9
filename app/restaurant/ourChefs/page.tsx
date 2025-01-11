@@ -6,11 +6,11 @@ const OurChefs: React.FC = () => {
   return (
     <div className="bg-black text-white py-12">
       <div className="text-center mb-12">
-        <h2 className="text-yellow-500 text-2xl font-flower font-medium">
+        <h2 className="text-[#FF9F0D] text-2xl font-flower font-medium">
           Chefs
         </h2>
         <h1 className="text-4xl font-bold mt-2">
-          <span className="text-yellow-500">Me</span>et Our Chefs
+          <span className="text-[#FF9F0D]">Me</span>et Our Chefs
         </h1>
       </div>
 
@@ -78,7 +78,7 @@ const OurChefs: React.FC = () => {
         </div>
       </div>
       <div className="text-center mt-12">
-        <button className="bg-transparent border border-yellow-500 text-yellow-500 py-2 px-6 rounded-full hover:bg-yellow-500 hover:text-gray-900 transition duration-300 transform  hover:scale-100 cursor-pointer">
+        <button className="bg-transparent border border-[#FF9F0D] text-[#FF9F0D] py-2 px-6 rounded-full hover:bg-[#FF9F0D] hover:text-gray-900 transition duration-300 transform  hover:scale-100 cursor-pointer">
           <Link href="/ChefGallery">See More</Link>
         </button>
       </div>

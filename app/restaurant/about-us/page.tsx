@@ -1,23 +1,20 @@
 import React from "react";
-
+import Link from "next/link";
 import Image from "next/image";
-
 import { FaCheck } from "react-icons/fa6";
-
 import pic1 from "@/public/about-1.png";
 import pic2 from "@/public/about-2.png";
 import pic3 from "@/public/about-3.png";
 
 function AboutUs() {
   return (
-    <section className="bg-black px-3 md:px-[135px] flex flex-col justify-evenly md:flex-row  md:items-center py-[50px]">
-      {/* Heading */}
-      <div className="text-white w-full md:w-[50%]">
+    <section className="bg-black px-3 container lg:px-[100px] grid lg:grid-cols-2 gird-cols-1  md:items-center py-[50px]">
+      <div className="text-white w-full">
         <h1 className="md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font-flower whitespace-nowrap font-greatVibes">
           About us
         </h1>
 
-        <h1 className="text-[20px] md:text-[50px] font-bold whitespace-nowrap md:whitespace-normal">
+        <h1 className="text-[10px] md:text-[50px] font-bold whitespace-nowrap md:whitespace-normal">
           <span className="text-[#FF9F0D]">We</span> Create the best foody
           product
         </h1>
@@ -52,9 +49,11 @@ function AboutUs() {
         </ul>
 
         <div className="flex flex-col md:flex-row items-center md:items-start">
-          <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[190px] md:h-[60px] rounded-[40px] mt-[32px] hover:bg-yellow-800">
+         <Link href='/About'>
+         <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[190px] md:h-[60px] rounded-[40px] mt-[32px] hover:bg-yellow-800">
             See More
           </button>
+          </Link>
         </div>
       </div>
 
@@ -62,9 +61,9 @@ function AboutUs() {
         <Image src={pic1} alt="Hero Image" />
 
         <div className="flex flex-col md:flex-row mt-[16px] md:mt-[0]">
-          <Image src={pic2} alt="Hero Image" className="mr-[16px] pt-[40px]" />
+          <Image src={pic2} alt="Hero Image" className="mr-[16px] pt-[20px] lg:w-[260px] lg:h-[300px] object-cover  " />
 
-          <Image src={pic3} alt="Hero Image" className="pt-[40px]" />
+          <Image src={pic3} alt="Hero Image" className="pt-[20px] lg:w-[260px] lg:h-[300px] object-cover" />
         </div>
       </div>
     </section>

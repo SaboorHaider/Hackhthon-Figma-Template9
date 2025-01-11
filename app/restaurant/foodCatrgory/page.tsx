@@ -13,9 +13,9 @@ const FoodCategory = () => {
   return (
     <section className="bg-black text-white py-16 px-6">
       <div className="container mx-auto text-center">
-        <h1 className="text-yellow-500 font-flower">Food Category</h1>
+        <h1 className="text-[#FF9F0D] font-flower lg:text-[20px]">Food Category</h1>
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          <span className="text-orange-500">Choose</span> Food Item
+          <span className="text-orange-500">Ch</span>oose Food Item
         </h2>
 
         <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-6">

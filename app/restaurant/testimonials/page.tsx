@@ -9,7 +9,7 @@ const TestimonialCard = () => {
     <div className="bg-black md:m-10  m-5">
       <span className="">
         <h3
-          className="text-yellow-500 lg:ml-[150px] text-xl font-flower   
+          className="text-[#FF9F0D] lg:ml-[150px] text-xl font-flower   
         "
         >
           Testimonials
@@ -32,7 +32,7 @@ const TestimonialCard = () => {
 
         <div className="mt-10">
           <i>
-            <LiaQuoteRightSolid className="text-orange-500 text-4xl lg:ml-[285px]" />
+            <LiaQuoteRightSolid className="text-[#FF9F0D] text-4xl lg:ml-[285px]" />
           </i>
           <p className="mt-5 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -64,22 +64,22 @@ const TestimonialCard = () => {
               <IoStar className="text-gray-300 text-3xl" />
             </i>
           </div>
-          <h4 className="mt-4 font-bold text-xl text-center">Alamin Hasan</h4>
+          <h4 className="mt-4 font-bold text-xl text-center text-[#333333]">Alamin Hasan</h4>
           <p className="text-gray-500 text-center">Food Specialist</p>
         </div>
       </div>
       <div className="flex justify-center items-center sm:mb-[100px]">
         <i>
-          <GoDotFill className="text-yellow-500 text-2xl mt-10 opacity-100 " />
+          <GoDotFill className="text-[#FF9F0D] text-2xl mt-10 opacity-100 " />
         </i>
         <i>
-          <GoDotFill className="text-yellow-500 text-2xl mt-10 opacity-40 " />
+          <GoDotFill className="text-[#FF9F0D] text-2xl mt-10 opacity-40 " />
         </i>
         <i>
-          <GoDotFill className="text-yellow-500 text-2xl mt-10 opacity-40 " />
+          <GoDotFill className="text-[#FF9F0D] text-2xl mt-10 opacity-40 " />
         </i>
         <i>
-          <GoDotFill className="text-yellow-500 text-2xl mt-10 opacity-40 " />
+          <GoDotFill className="text-[#FF9F0D] text-2xl mt-10 opacity-40 " />
         </i>
       </div>
     </div>

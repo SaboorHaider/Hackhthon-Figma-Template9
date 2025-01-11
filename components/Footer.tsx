@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
       <div className="container mx-auto px-5 py-8">
-        <div className="text-center mb-8 grid lg:grid-cols-2 border-b-2 lg:p-10 border-yellow-500 pb-10 ">
+        <div className="text-center mb-8 grid lg:grid-cols-2 border-b-2 lg:p-10 border-[#FF9F0D] pb-10 ">
           <div className=" text-left">
             <h2 className="text-2xl font-bold text-white">
-              <span className="text-yellow-500">St</span>ill You Need Our
+              <span className="text-[#FF9F0D]">St</span>ill You Need Our
               Support?
             </h2>
             <p className="text-gray-400">
@@ -24,11 +24,12 @@ const Footer = () => {
             </p>
           </div>
 
+
           <div className="mt-4 flex justify-center text-white">
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="px-6 py-2 rounded-l-sm bg-yellow-500 text-white "
+              className="px-6 py-2 rounded-l-sm bg-[#FF9F1D] text-white "
             />
             <button className="bg-white text-black px-2 py-2 rounded-r-md text-sm transform transition duration-100 hover:scale-105 hover:bg-transparent hover:border-2 hover:text-white border-white   ">
               Subscribe Now
@@ -37,6 +38,7 @@ const Footer = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          
           {/* AboutSection */}
           <div>
             <h3 className="text-lg font-bold mb-4">About Us.</h3>
@@ -46,7 +48,7 @@ const Footer = () => {
               worldwide.
             </p>
             <div className="flex items-center">
-              <div className="bg-yellow-500 p-[18px] ">
+              <div className="bg-[#FF9F0D] p-[18px] ">
                 <MdOutlineWatchLater className="text-white text-xl" />
               </div>
 

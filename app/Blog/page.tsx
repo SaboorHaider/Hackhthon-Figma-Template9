@@ -96,7 +96,7 @@ const BlogPost = () => {
 
                     <div className="flex ">
                       <Link
-                        href="/"
+                        href="/BlogDetails"
                         className="flex orange-500 text-orange-500 p-1 rounded-md hover:text-white hover:bg-orange-600 border-2 border-orange-500"
                       >
                         Read More
@@ -146,7 +146,7 @@ const BlogPost = () => {
 
                     <div className="flex">
                       <Link
-                        href="/"
+                        href="/BlogDetails"
                         className="flex orange-500 text-orange-500 p-1 rounded-md hover:text-white hover:bg-orange-600 border-2 border-orange-500"
                       >
                         Read More
@@ -195,7 +195,7 @@ const BlogPost = () => {
 
                     <div className="flex">
                       <Link
-                        href="/"
+                        href="/BlogDetails"
                         className="flex orange-500 text-orange-500  p-1 rounded-md hover:text-white hover:bg-orange-600 border-2 border-orange-500"
                       >
                         Read More
@@ -244,7 +244,7 @@ const BlogPost = () => {
 
                     <div className="flex">
                       <Link
-                        href="/"
+                        href="/BlogDetails"
                         className="flex orange-500 text-orange-500 p-1 rounded-md hover:text-white hover:bg-orange-600 border-2 border-orange-500"
                       >
                         Read More
