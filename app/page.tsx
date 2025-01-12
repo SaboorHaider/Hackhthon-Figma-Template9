@@ -8,7 +8,6 @@ import ChoseUs from "./restaurant/choseUs/page";
 import Service from "./restaurant/servic/page";
 import OurChefs from "./restaurant/ourChefs/page";
 import TestimonialCard from "./restaurant/testimonials/page";
-import Process from "./restaurant/activeProcess/page";
 import BlogSection from "./restaurant/blogPost/page";
 
 const Home = () => {
@@ -27,7 +26,6 @@ const Home = () => {
         <MenuCom />
         <OurChefs />
         <TestimonialCard />
-        <Process />
         <BlogSection />
       </main>
 

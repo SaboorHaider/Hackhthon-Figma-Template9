@@ -11,7 +11,7 @@ const Menu = () => {
     <div className="">
       <header>
         <Header />
-        <div className="relative">
+        <div className="relative">git 
           <Image
             src="/mainbg.jpg"
             alt="Header Background"
