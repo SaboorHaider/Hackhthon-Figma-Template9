@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import * as React from "react";
-
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
@@ -57,7 +55,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/Error404"
+            href="/Menu"
             className="hover:text-yellow-500 text-white transform transition duration-100 hover:scale-105 cursor-pointer"
           >
             Pages
