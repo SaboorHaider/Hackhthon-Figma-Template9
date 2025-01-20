@@ -41,7 +41,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/git iniMainMenu"
+            href="/Menu"
             className="hover:text-[#FF9F0D] text-white transform transition duration-100 hover:scale-105 cursor-pointer"
           >
             Menu
