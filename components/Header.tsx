@@ -31,7 +31,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href="/Menu"
+              href="/menu"
               className="hover:text-[#FF9F0D] hover:underline text-white transform transition duration-100 hover:scale-105 cursor-pointer "
             >
               Menu
@@ -79,7 +79,7 @@ const Header = () => {
               About
             </Link>
             <Link
-              href="/Shoop"
+              href="/Shop"
               className="hover:text-[#FF9F0D] hover:underline text-white transform transition duration-100 hover:scale-105 cursor-pointer "
             >
               Shop
@@ -110,7 +110,7 @@ const Header = () => {
             Home
           </Link>
           
-          <Link href="/Menu" className="hover:text-yellow-500 text-white">
+          <Link href="/menu" className="hover:text-yellow-500 text-white">
             Menu
           </Link>
           <Link href="/Blog" className="hover:text-yellow-500 text-white">
@@ -119,7 +119,7 @@ const Header = () => {
           <Link href="/About" className="hover:text-yellow-500 text-white">
             About
           </Link>
-          <Link href="/Shoop" className="hover:text-yellow-500 text-white">
+          <Link href="/Shop" className="hover:text-yellow-500 text-white">
             Shop
           </Link>
           <Link href="/Contact" className="hover:text-yellow-500 text-white">

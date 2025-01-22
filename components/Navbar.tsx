@@ -72,7 +72,7 @@ const Navbar = () => {
         
          
           <Link
-            href="/Shoop"
+            href="/Shop"
             className="hover:text-yellow-500 text-white transform transition duration-100 hover:scale-105 cursor-pointer"
           >
             Shop
@@ -82,6 +82,12 @@ const Navbar = () => {
             className="hover:text-yellow-500 text-white transform transition duration-100 hover:scale-105 cursor-pointer"
           >
             Contact
+          </Link>
+          <Link
+            href="/FAQ"
+            className="hover:text-yellow-500 text-white transform transition duration-100 hover:scale-105 cursor-pointer"
+          >
+            FAQ
           </Link>
         </div>
 
@@ -128,7 +134,7 @@ const Navbar = () => {
 
 
           <Link
-            href="/Shoop"
+            href="/Shop"
             className="block text-white py-2"
             onClick={toggleMenu}
           >
@@ -152,6 +158,14 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             Contact
+          </Link>
+          
+          <Link
+            href="/FAQ"
+            className="block text-white py-2"
+            onClick={toggleMenu}
+          >
+            FAQ
           </Link>
 
 

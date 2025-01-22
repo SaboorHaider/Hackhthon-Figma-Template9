@@ -57,12 +57,11 @@ function Hero() {
 
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-start mt-6">
           <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[160px] md:h-[50px] lg:w-[190px] lg:h-[60px] rounded-[40px] hover:bg-yellow-800 transform transition duration-300 hover:scale-105 cursor-pointer">
-            <Link href='/ShopDetails'>See More</Link>
+            <Link href='/Menu'>See More</Link>
           </button>
         </div>
       </div>
 
-      {/* Image */}
       <div className="mt-[30px] md:mt-0 md:w-[50%] flex justify-center">
         <Image
           src='/Hero.png'
